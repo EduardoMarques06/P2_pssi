@@ -1,40 +1,41 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 50px;
-    height:10vh;
+    height: 10vh;
     background-color: black;
     color: white;
 }
 
-main{
+main {
     height: 80vh;
     width: 100vw;
+    gap: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.texto_home{
+.texto_home {
     font-size: larger;
 }
 
-.img_home{
-    height:260px;
+.img_home {
+    height: 260px;
     width: 260px;
 }
 
-footer{
+footer {
     height: 10vh;
     display: flex;
     flex-direction: column;
@@ -44,9 +45,14 @@ footer{
     background-color: black;
 }
 
-.icones_redes{
+.icones_redes {
     display: flex;
     flex-direction: row;
     gap: 10px;
     justify-content: center;
+}
+
+.icon_git_hub{
+    height:24px;
+    width:24px;
 }

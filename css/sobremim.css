@@ -1,10 +1,53 @@
-*{
-padding: 0;
-margin:0;
-box-sizing: 0;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
 }
 
-body{
-    background-color:rgb(255, 6, 6) ;
+body {
+    background-color: rgb(255, 6, 6);
 
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+
+main {
+    height: 80vh;
+    width: 100vw;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+
+.icones_redes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.icon_git_hub{
+    height:24px;
+    width:24px;
 }
