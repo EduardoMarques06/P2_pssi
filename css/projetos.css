@@ -21,7 +21,7 @@ header {
 }
 
 main {
-    height: 80vh;
+    
     width: 100vw;
     gap: 20px;
     display: flex;

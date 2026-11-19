@@ -30,6 +30,12 @@ main {
 
 }
 
+.minha_foto{
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
+}
+
 footer {
     height: 10vh;
     display: flex;
