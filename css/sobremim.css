@@ -19,6 +19,21 @@ header {
     color: white;
 }
 
+.link_home{
+    text-decoration: none;
+    color: white;
+}
+
+.link_projeto{
+    text-decoration: none;
+    color: white;
+}
+
+.link_sobre{
+    text-decoration: none;
+    color: white;
+}
+
 main {
     height: 80vh;
     width: 100vw;
