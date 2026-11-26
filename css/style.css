@@ -70,3 +70,38 @@ footer {
     height:24px;
     width:24px;
 }
+
+@media(min-width:1024px){
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-size: 50px;
+    gap: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto_home{
+    width: 500px;
+    font-size: 50px;
+}
+
+.img_home{
+    height: 344px;
+    width: 344px;
+}
+
+footer{
+    font-size: 20px;
+}
+
+}

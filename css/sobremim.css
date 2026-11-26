@@ -4,10 +4,7 @@
     box-sizing: 0;
 }
 
-body {
-    background-color: rgb(255, 6, 6);
 
-}
 header {
     display: flex;
     flex-direction: row;
@@ -71,4 +68,49 @@ footer {
 .icon_git_hub{
     height:24px;
     width:24px;
+}
+
+@media(min-width:1024px){
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-size: 50px;
+    gap: 200px;
+}
+header{
+    font-size: 50px;
+    gap: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    font-size:30px ;
+}
+
+.minha_foto{
+    height:344px;
+    width:344px;
+}
+
+
+
+
+
+footer{
+    font-size: 20px;
+}
+
 }

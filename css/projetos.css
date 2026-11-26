@@ -4,10 +4,7 @@
     box-sizing: 0;
 }
 
-body {
-    background-color: rgb(6, 255, 19);
 
-}
 
 header {
     display: flex;
@@ -53,6 +50,7 @@ main {
 
 footer {
     height: 10vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -71,4 +69,30 @@ footer {
 .icon_git_hub{
     height:24px;
     width:24px;
+}
+
+@media(min-width:1024px){
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    font-size: 50px;
+    gap: 200px;
+}
+main{
+    a{
+    font-size: 20px;
+}
+}
+.img_receita{
+    
+    height: 500px;
+    width: 600px;
+
+}
+footer{
+    font-size: 20px;
+}
 }
